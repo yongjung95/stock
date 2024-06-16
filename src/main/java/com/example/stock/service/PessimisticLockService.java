@@ -2,8 +2,9 @@ package com.example.stock.service;
 
 import com.example.stock.domain.Stock;
 import com.example.stock.repository.StockRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
+
+import javax.transaction.Transactional;
 
 @Service
 public class PessimisticLockService {

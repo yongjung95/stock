@@ -2,8 +2,9 @@ package com.example.stock.facade;
 
 import com.example.stock.repository.LockRepository;
 import com.example.stock.service.StockService;
-import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Component;
+
+import javax.transaction.Transactional;
 
 @Component
 public class NamedLockStockFacade {

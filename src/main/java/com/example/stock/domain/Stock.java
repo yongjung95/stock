@@ -1,11 +1,12 @@
 package com.example.stock.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class Stock {
 
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private Long productId;
